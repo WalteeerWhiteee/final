@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>btc markets</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./src/css/sec1.css">
+    <link rel="stylesheet" href="./src/css/sec2_trade.css">
+    <link rel="stylesheet" href="./src/css/sec4_crypto.css">
+    <link rel="stylesheet" href="./src/css/sec3_markets.css">
+    <link rel="stylesheet" href="./src/css/sec5_wallet.css">
+    <link rel="stylesheet" href="./src/css/slider.css">
+    <link rel="stylesheet" href="./src/css/sec8-start.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/css/sec6-vip.css">
+    <link rel="stylesheet" href="./src/css/sec7.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-item">
+                <img class="header-image" src="./src/images/Frame.svg" alt="">
+                <ul>
+                    <li class="header-links"><a href="">Products</a></li>
+                    <li class="header-links"><a href="#product">Prices</a></li>
+                    <li class="header-links"><a href="#prices">Buy</a></li>
+                    <li class="header-links"><a href="#buy">OTC</a></li>
+                    <li class="header-links"><a href="#otc">Learn</a></li>
+                    <li class="header-links"><a href="#learn">Help</a></li>
+                </ul>
+
+                <div class="register">
+                    <button class="log-in" id="myBtn">
+                        <a href="#">Log In</a>
+                    </button>
+<!-- Модальный -->
+<div id="myModal" class="modal">
+
+    <!-- Модальное содержание -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Username</h3>
+      <input class="log-in-input1" type="text" placeholder="Username">
+      <h3>Password</h3>
+      <input class="log-in-input2" type="password" placeholder="Password">
+
+      <button class="log-in-btn">Log In</button>
+    </div>
+  
+  </div>
+                    <button class="sign-up" id="myBtn2">
+                        <a href="#">Sign Up</a>
+                    </button>
+
+
+
+<div id="myModal2" class="modal2">
+
+    <!-- Модальное содержание -->
+    <div class="modal-content2">
+      <span class="close2">&times;</span>
+      <h3>First Name</h3>
+      <input class="log-in-input1" type="text" placeholder="First Name">
+
+      <h3>Last Name</h3>
+      <input class="log-in-input1" type="text" placeholder="Last Name">
+
+      <h3>Email</h3>
+      <input class="log-in-input1" type="email" placeholder="Email">
+      <h3>Password</h3>
+      <input class="log-in-input2" type="password" placeholder="Password">
+
+      <button class="sign-up-btn">Sign Up</button>
+    </div>
+  
+  </div>                   
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <section class="buy wow animate__animated animate__fadeInDown" id="product">
+        <div class="container">
+            <div class="sec-buy-text">
+                <h1 class="sec1-text">Buy, sell and trade crypto today</h1>
+                <p class="sec1-trade">Trade with confidence and build your future with Australia’s fastest crypto exchange.</p>
+                <div class="sec-buy-buttons">
+                    <button class="get-btn"><a href="">Get Started</a></button>
+                    <button class="view-btn"><a href="">View exchange</a></button>
+                </div>
+            </div>
+
+            <img class="sec1-image" src="./src/images/IMAGE.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="sec2-trade" id="prices">    
+        <div class="container">
+            <div class="tabs wow animate__animated animate__fadeInUp">
+                <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                <label for="tab-btn-1">Most Popular</label>
+                <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                <label for="tab-btn-2">Top Movers</label>
+
+                <div class="trade-box wow animate__animated animate__fadeInUp" id="content-1">
+                    <ul class="trade-names">
+                        <li class="trades-col">Asset</li>
+                        <li class="trades-col">Last Price</li>
+                        <li class="trades-col">24hr Change</li>
+                        <li class="trades-col">Market Cap</li>
+                    </ul>
+    
+                    <ul class="trade-values">
+                        <li class="trade-values-col">
+                            <img src="./src/images/Group.svg" alt="">
+                            <h2>XRP</h2>
+                            <h3 class="h3">$0.5617</h3>
+                            <h5>1.57%</h5>
+                            <h4>$28B</h4>
+                            <button class="trade-btn">Buy</button>
+                        </li>
+    
+                        <li class="trade-values-col">
+                            <img src="./src/images/Group (1).svg" alt="">
+                            <h2>BTC</h2>
+                            <h3>$0.5617</h3>
+                            <h5>1.57%</h5>
+                            <h4>$28B</h4>
+                            <button>Buy</button>
+                        </li>
+    
+                        <li class="trade-values-col">
+                            <img src="./src/images/Group (2).svg" alt="">
+                            <h2>ETR</h2>
+                            <h3>$0.5617</h3>
+                            <h5>1.57%</h5>
+                            <h4>$28B</h4>
+                            <button>Buy</button>
+                        </li>
+    
+                        <li class="trade-values-col">
+                            <img src="./src/images/Group (3).svg" alt="">
+                            <h2>THR</h2>
+                            <h3>$0.5617</h3>
+                            <h5>1.57%</h5>
+                            <h4>$28B</h4>
+                            <button>Buy</button>
+                        </li>
+    
+                        <li class="trade-values-col">
+                            <img src="./src/images/Group(4).svg" alt="">
+                            <h2>ENJ</h2>
+                            <h3>$0.5617</h3>
+                            <h5>1.57%</h5>
+                            <h4>$28B</h4>
+                            <button>Buy</button>
+                        </li>
+    
+                        
+                    </ul>
+                </div>
+                <div id="content-2">
+                    <ul class="trade-names">
+                        <li class="trades-col">Asset</li>
+                        <li class="trades-col">Last Price</li>
+                        <li class="trades-col">24hr Change</li>
+                        <li class="trades-col">Market Cap</li>
+                    </ul>
+                    <li class="trade-values-col">
+                        <img src="./src/images/Group.svg" alt="">
+                        <h2>XRP</h2>
+                        <h3 class="h3">$0.5617</h3>
+                        <h5>1.57%</h5>
+                        <h4>$28B</h4>
+                        <button class="trade-btn">Buy</button>
+                    </li>
+
+                    <li class="trade-values-col">
+                        <img src="./src/images/Group (1).svg" alt="">
+                        <h2>BTC</h2>
+                        <h3>$0.5617</h3>
+                        <h5>1.57%</h5>
+                        <h4>$28B</h4>
+                        <button>Buy</button>
+                    </li>
+
+                    <li class="trade-values-col">
+                        <img src="./src/images/Group (2).svg" alt="">
+                        <h2>ETR</h2>
+                        <h3>$0.5617</h3>
+                        <h5>1.57%</h5>
+                        <h4>$28B</h4>
+                        <button>Buy</button>
+                    </li>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+
+    <section class="sec3-markets" id="buy"> 
+        <div class="container">
+            <h2 class="markets-headline wow animate__animated animate__fadeInUp">Why BTC Markets?</h2>
+            <div class="markets-drugs wow animate__animated animate__fadeInUp">
+                <div class="drug-tit">
+                    <img src="./src/images/Frame (1).svg" alt="">
+                    <h3>Security</h3>
+                    <p>Multiple layers of account security, 2FA, address whitelisting, Biometrics.</p>
+                </div>
+
+                <div class="drug-tit">
+                    <img src="./src/images/Frame (2).svg" alt="">
+                    <h3>Speed</h3>
+                    <p>Fast trade executions with an industry leading uptime of 99.99%.</p>
+                </div>
+
+                <div class="drug-tit">
+                    <img src="./src/images/Frame (2).svg" alt="">
+                    <h3>Support</h3>
+                    <p>100% Australian-based customer support, OTC desk and VIP Program.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec4-crypto wow animate__animated animate__fadeInUp" id="otc">
+        <div class="container">
+            <h3 style="font-size: 16px;">TRADE</h3>
+            <h2>Buy, sell and trade crypto with confidence</h2>
+            <div class="crypto-title">
+                <div style="display: flexbox;">
+                    <div class="crypto-tit1">
+                        <img src="./src/images/crypto1.svg" alt="">
+                        <h3>Simple buy & sell options</h3>
+                        <p>Buy and sell cryptocurrency quickly and easily.</p>
+                    </div>
+
+                    <div class="crypto-tit1">
+                        <img src="./src/images/crypto3.svg" alt="">
+                        <h3>Advanced trading</h3>
+                        <p>Access advanced order types including limit, market, stop limit and dollar cost averaging.</p>
+                    </div>
+                </div>
+
+                <div style="display: flexbox; width: 500px;">
+                    <div class="crypto-tit1">
+                        <img src="./src/images/crypto2.svg" alt="">
+                        <h3>Portfolio tracking</h3>
+                        <p>Track your total asset holdings, values and equity over time.</p>
+                    </div>
+
+                    <div class="crypto-tit1">
+                        <img src="./src/images/crypto4.svg" alt="">
+                        <h3>Mobile app</h3>
+                        <p>Monitor markets, manage your portfolio, and trade crypto on the go.</p>
+                    </div>
+                </div>
+                <img src="./src/images/IMAGE (1).png" alt="" >
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="sec5-wallet" id="learn">
+        <div class="container">
+
+            
+            <div class="wallet-title wow animate__animated animate__fadeInUp">
+                <img src="./src/images/wallet.png" alt="">
+                <div style="display: flexbox;">
+                    <h3 style="font-size: 16px;">Wallet</h3>
+                    <h2 class="wallet-h2">Simple and secure wallet services</h2>
+                    <div class="crypto-tit1">
+                        <img src="./src/images/crypto1.svg" alt="">
+                        <h3>Simple buy & sell options</h3>
+                        <p>Buy and sell cryptocurrency quickly and easily.</p>
+                    </div>
+
+                    <div class="crypto-tit1">
+                        <img src="./src/images/crypto3.svg" alt="">
+                        <h3>Advanced trading</h3>
+                        <p>Access advanced order types including limit, market, stop limit and dollar cost averaging.</p>
+                    </div>
+                </div>
+
+                <div style="display: flexbox; margin-top: 70px;">
+                    <div class="crypto-tit1">
+                        <img src="./src/images/crypto2.svg" alt="">
+                        <h3>Portfolio tracking</h3>
+                        <p>Track your total asset holdings, values and equity over time.</p>
+                    </div>
+                    <div class="crypto-tit1">
+                        <img src="./src/images/crypto4.svg" alt="">
+                        <h3>Mobile app</h3>
+                        <p>Monitor markets, manage your portfolio, and trade crypto on the go.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec6-vip" id="help">
+        <div class="container">
+            <div class="sec6-vip-text wow animate__animated animate__fadeInUp">
+                <h3>VIP Program</h3>
+                <h2>When you need more than <br> just a crypto exchange</h2>
+                <p>Access world-class APIs, a lower fee structure and a dedicated Account Manager.</p>
+                <div class="vip-text-drugs">
+                    <div class="drug">
+                        <img src="./src/images/mall.svg" alt="">
+                        <h3>API integrations</h3>
+                    </div>
+                    <div class="drug">
+                        <img src="./src/images/balls.svg" alt="">
+                        <h3>Lower fees</h3>
+                    </div>
+                    <div class="drug">
+                        <img src="./src/images/user.svg" alt="">
+                        <h3>Dedicated Account Manager</h3>
+                    </div>
+                </div>
+                <video controls="controls" class="vip-video wow animate__animated animate__fadeInUp" src="./src/images/How To Start Trading Stocks As A Complete Beginner.mp4">
+                    <source src="./src/images/How To Start Trading Stocks As A Complete Beginner.mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec7-markets"> 
+        <div class="container">
+            <h2 class="markets-headline wow animate__animated animate__fadeInUp">Start trading in 3 easy steps</h2>
+            <div class="markets-drugs wow animate__animated animate__fadeInUp">
+                <div class="drug-tit">
+                    <img src="./src/images/user.svg" alt="">
+                    <h3>1. Create</h3>
+                    <p>Sign up and verify your free account..</p>
+                </div>
+
+                <div class="drug-tit">
+                    <img src="./src/images/wall.svg" alt="">
+                    <h3>2. Deposit</h3>
+                    <p>Add AUD or crypto to your wallet using our secure methods.</p>
+                </div>
+
+                <div class="drug-tit">
+                    <img src="./src/images/crypto1.svg" alt="">
+                    <h3>3. Trade</h3>
+                    <p>You’re all set. Buy, sell and trade crypto immediately.</p>
+                </div>
+            </div>
+            <button class="get-btn wow animate__animated animate__fadeInUp"><a href="">Get Started</a></button>
+        </div>
+    </section>
+
+    <section class="sec-slider">
+        <div class="container">
+            <h2 class="slider-text wow animate__animated animate__fadeInUp">Find out the latest crypto news</h2>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>                             
+        <div class="slide-container swiper wow animate__animated animate__fadeInUp">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            
+                            
+                                <img src="./src/images/sliderimg.png" alt="" class="card-img">
+                            
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">This Week in Crypto: 19th January 2023</h2>
+
+                            <button class="button">Read more</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            
+                            
+                                <img src="./src/images/sliderimg.png" alt="" class="card-img">
+                            
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">This Week in Crypto: 19th January 2023</h2>
+
+                            <button class="button">Read more</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            
+                            
+                                <img src="./src/images/sliderimg.png" alt="" class="card-img">
+                            
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">This Week in Crypto: 19th January 2023</h2>
+
+                            <button class="button">Read more</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            
+                            
+                                <img src="./src/images/sliderimg.png" alt="" class="card-img">
+                            
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">This Week in Crypto: 19th January 2023</h2>
+
+                            <button class="button">Read more</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            
+                            
+                                <img src="./src/images/sliderimg.png" alt="" class="card-img">
+                            
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">This Week in Crypto: 19th January 2023</h2>
+
+                            <button class="button">Read more</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            
+                            
+                                <img src="./src/images/sliderimg.png" alt="" class="card-img">
+                            
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">This Week in Crypto: 19th January 2023</h2>
+
+                            <button class="button">Read more</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            
+                            
+                                <img src="./src/images/sliderimg.png" alt="" class="card-img">
+                            
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">This Week in Crypto: 19th January 2023</h2>
+
+                            <button class="button">Read more</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            
+                            
+                                <img src="./src/images/sliderimg.png" alt="" class="card-img">
+                            
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">This Week in Crypto: 19th January 2023</h2>
+
+                            <button class="button">Read more</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            
+                            
+                                <img src="./src/images/sliderimg.png" alt="" class="card-img">
+                            
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">This Week in Crypto: 19th January 2023</h2>
+
+                            <button class="button">Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+
+
+        </div>
+    </section>
+
+    <section class="get-start">
+        <div class="container">
+            <div class="start-text wow animate__animated animate__fadeInUp">
+                <h2 class="start-tit">Create an account and start trading with us today!</h2>
+                <button class="get-btn wow animate__animated animate__fadeInUp">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content wow animate__animated animate__fadeInUp">
+                <ul class="footer1">
+                    <h2>ABOUT</h2>
+                    <li class="footer1-title">About us</li>
+                    <li class="footer1-title">Mobile app</li>
+                    <li class="footer1-title">Staking</li>
+                    <li class="footer1-title">Self Managed Super Funds</li>
+                    <li class="footer1-title">OTC Trading</li>
+                    <li class="footer1-title">VIP Program</li>
+                    <li class="footer1-title">Investor Study Report</li>
+                    <li class="footer1-title">Contact Us</li>
+                    <li class="footer1-title">Blog</li>
+                </ul>
+
+                <ul class="footer2">
+                    <h2>LEGAl</h2>
+                    <li class="footer2-title">Privacy Policy</li>
+                    <li class="footer2-title">Terms of Service</li>
+                    <li class="footer2-title">AML/CTF Policy</li>
+                    <li class="footer2-title">Protect Yourself Online</li>
+                    <li class="footer2-title">Information Requests</li>
+                </ul>
+
+                <ul class="footer3">
+                    <h2>HELP</h2>
+                    <li class="footer3-title">Support</li>
+                    <li class="footer3-title">Complaints</li>
+                    <li class="footer3-title">FAQs</li>
+                    <li class="footer3-title">Fees</li>
+                    <li class="footer3-title">Bug Bounty</li>
+                    <li class="footer3-title">API</li>
+                    <li class="footer3-title">Tax Reporting</li>
+                </ul>
+
+                <ul class="footer4">
+                    <h2>FOLLOW</h2>
+                    <li class="footer4-title">
+                        <img src="./src/images/twitter.svg" alt="">
+                        Twitter
+                    </li>
+                    <li class="footer4-title">
+                        <img src="./src/images/facebook.svg" alt="">
+                        Facebook
+                    </li>
+                    <li class="footer4-title">
+                        <img src="./src/images/inlink.svg" alt="">
+                        LinkedIn
+                    </li>
+                    <li class="footer4-title">
+                        <img src="./src/images/telegram.svg" alt="">
+                        Telegram
+                    </li>
+                    <li class="footer4-title">
+                        <img src="./src/images/instagram.svg" alt="">
+                        Instagram
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

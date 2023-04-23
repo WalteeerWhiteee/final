@@ -1,0 +1,34 @@
+.sec3-markets{
+    height: 60vh;
+    text-align: center;
+}
+.markets-drugs{
+    display: flex;
+    width: 100%;
+    margin-top: 110px;
+}
+.markets-headline{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 48px;
+}
+.drug-tit{
+    width: 269px;
+    height: auto;
+    margin-left: 70px;
+}
+.drug-tit h3{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+.drug-tit p{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
